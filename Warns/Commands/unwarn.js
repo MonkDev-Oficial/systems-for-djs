@@ -30,7 +30,7 @@ data: new SlashCommandBuilder()
  */
 async execute(interaction, client) {
 
-    const warns = require('../../Structures/Schemas/warns.js');
+    const warns = require('../Schemas/warns.js');
 
     const Sub = interaction.options.getSubcommand()
 
