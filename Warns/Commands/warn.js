@@ -24,7 +24,7 @@ module.exports = {
      */
     async execute(interaction, client) {
 
-        const warns = require('../../Structures/Schemas/warns.js');
+        const warns = require('../Schemas/warns.js');
         const user = interaction.options.getMember('usuario');
         const reason = interaction.options.getString('razon') || 'No fue encontrada.';
         const id = new Generator({ length: 10 }).generate()
