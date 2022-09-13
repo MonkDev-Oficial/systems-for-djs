@@ -19,7 +19,7 @@ module.exports = {
      */
     async execute(interaction, client) {
 
-        const warns = require('../../Structures/Schemas/warns.js');
+        const warns = require('../Schemas/warns.js');
         const user = interaction.options.getMember('usuario');
         const usuario = interaction.options.getUser('usuario');
 
